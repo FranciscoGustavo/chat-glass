@@ -1,0 +1,20 @@
+.header-chat {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.8);
+  padding: 14px;
+}
+
+.header-chat .options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-chat .options svg {
+  font-size: 21px;
+  margin: 10px;
+}

@@ -1,0 +1,37 @@
+.chat {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 70px;
+}
+
+.chat div:last-child {
+  border-top: solid 2px rgba(255, 255, 255, 0.8);
+}
+
+.write-box {
+  display: grid;
+  grid-template-columns: repeat(4, 30px) 1fr 30px;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 14px;
+}
+
+.write-box svg {
+  font-size: 21px;
+}
+
+.write-box > div {
+  display: grid;
+  grid-template-columns: 1fr 21px;
+  width: 100%;
+  border-radius: 7px;
+  padding: 7px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.write-box > div input {
+  background-color: transparent;
+  outline: none;
+}

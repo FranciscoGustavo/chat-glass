@@ -1,0 +1,27 @@
+.chat-user {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.chat-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.chat-user div {
+  text-align: left;
+}
+
+.btn-chat-user {
+  width: 100%;
+  border-bottom: solid 1px #FFF;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.btn-chat-user:first-child {
+  border-top: solid 1px #FFF;
+}
